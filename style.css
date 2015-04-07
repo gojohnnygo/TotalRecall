@@ -1,4 +1,17 @@
-h1 {
+img {
+	width: 100%;
+}
+
+.btn {
+	visibility: hidden;
+}
+
+#avatar {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+}
+
+/*h1 {
 	text-align: center;
 }
 
@@ -24,4 +37,4 @@ footer {
 	width: 60px;
 	margin-left: 10px;
 	margin-right: 10px;
-}
+}*/
