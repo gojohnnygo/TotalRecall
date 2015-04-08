@@ -1,6 +1,9 @@
+
+
 $(document).ready(function() {
+
   var app = {};
-  
+
   app.score = [];
   app.avatarIndex = 0;
   app.buttonIndex = 0;
@@ -9,7 +12,7 @@ $(document).ready(function() {
     avatarAnimateOut();
   });
 
-  
+
 
   var avatarAnimateIn = function() {
     app.avatarIndex++;
@@ -25,7 +28,7 @@ $(document).ready(function() {
   var animateNames = function() {
     var timer = setInterval(function() {
       app.buttonIndex++;
-      
+
       if (app.buttonIndex === 4) {
         app.buttonIndex = 0;
         clearTimeout(timer);
@@ -38,12 +41,12 @@ $(document).ready(function() {
   };
 
   var init = function() {
-    $('#avatar').attr('src', totalRecall.data[0].url);
+    // $('#avatar').attr('src', totalRecall.data[0].url);
     $('#avatar').addClass('bounceInLeft');
 
     var timer = setInterval(function() {
       app.buttonIndex++;
-      
+
       if (app.buttonIndex === 4) {
         app.buttonIndex = 0;
         clearTimeout(timer);

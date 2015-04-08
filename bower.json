@@ -1,0 +1,23 @@
+{
+  "name": "TotalRecall",
+  "main": "TotalRecall.js",
+  "version": "0.2.0",
+  "homepage": "https://github.com/gojohnnygo/TotalRecall",
+  "authors": [
+    "Hack Reactor Students <accounts@hackreactor.com>"
+  ],
+  "description": "word",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "handlebars": "~3.0.0",
+    "underscore": "~1.8.3"
+  }
+}
